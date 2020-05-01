@@ -224,7 +224,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget _emailPasswordWidget() {
     return Column(
       children: <Widget>[
-        _entryField("Email id"),
+        _entryField("Email"),
         _entryField("Password", isPassword: true),
       ],
     );
@@ -248,7 +248,7 @@ class _LoginPageState extends State<LoginPage> {
                         flex: 3,
                         child: SizedBox(),
                       ),
-                      _title(),
+                      //_title(),
                       SizedBox(
                         height: 50,
                       ),

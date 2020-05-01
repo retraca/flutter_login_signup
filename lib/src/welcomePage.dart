@@ -139,7 +139,7 @@ class _WelcomePageState extends State<WelcomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                _title(),
+                //_title(),
                 SizedBox(
                   height: 80,
                 ),
